@@ -1,0 +1,4 @@
+alias mate='subl'
+alias mk=mkvirtualenv
+alias vlc='open -a vlc'
+alias gitx='gittower "$(git rev-parse --show-toplevel)"'

@@ -1,0 +1,19 @@
+[user]
+	name = Kenneth Reitz
+	email = me@kennethreitz.org
+[core]
+	editor = subl -w
+	excludesfile = /Users/kreitz/.gitignore_global
+[color]
+	ui = true
+[alias]
+	switch = !legit switch \"$@\"
+	branches = !legit branches
+	sprout = !legit sprout \"$@\"
+	unpublish = !legit unpublish \"$@\"
+	harvest = !legit harvest \"$@\"
+	sync = !legit sync \"$@\"
+	publish = !legit publish \"$@\"
+	graft = !legit graft \"$@\"
+[credential]
+	helper = osxkeychain
